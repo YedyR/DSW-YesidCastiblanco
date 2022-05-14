@@ -6,11 +6,11 @@ header{
     padding: 20px;
     text-align: center;
 }
-#img1{
-    /*grid-column: 1/2;*/
+/* #img1{
+    grid-column: 1/2;
 }
 .titulop{
-    /*grid-column: 2/4;*/
+    grid-column: 2/4; */
 }
 nav{
     /*background-color: #05595B;*/
@@ -46,4 +46,9 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     color: black;*/
+}
+/*@media screen and (max-width:600px) {
+    header {
+        flex-direction: column;
+    }
 }
